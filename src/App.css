@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #eaf6ff;
+  border: 5px solid #0f80be;
+  padding: 3%;
+  margin-top: 3%;
+  width: 40%;
+  border-radius: 5px;
+}
+
+h1, h3{
+  color: #008287;
+}
+
+small{
+  color:red;
+  display: block;
+}
+
+.form input {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.form-text {
+  width: 50%;
+}
+
+.form label {
+  color: #008287;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  margin: 4%;
+}
+
+.App input[type='submit'] {
+  color: #ffffff;
+  background-color: #008287;
+  border: #008287;
+  margin-top: 5%;
+}
